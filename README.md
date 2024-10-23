@@ -6,7 +6,7 @@
 </p>
 
 - 🌱 I’m currently learning **Node.js, Express.js, MongoDB**
-- 👨‍💻 All of my projects are available at [https://abdullah-al-mridul.netlify.app/](https://abdullah-al-mridul-dev.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://abdullah-al-mridul-dev.vercel.app/](https://abdullah-al-mridul-dev.vercel.app/)
 - 💬 Ask me about **React, JavaScript**
 - 📫 How to reach me **rim89987@gmail.com**
 
