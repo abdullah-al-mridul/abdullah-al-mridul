@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, monospace" width="985px" height="640px" font-size="16px">
+<style>
+  .keyColor {fill: #8be9fd;}        /* Cyan-like keys */
+  .valueColor {fill: #f1fa8c;}      /* Yellowish values */
+  .addColor {fill: #50fa7b;}        /* Green ++ */
+  .delColor {fill: #ff5555;}        /* Red -- */
+  .bracketColor {fill: #ff79c6;}    /* Pink object brackets */
+  .arrayBracketColor {fill: #50fa7b;} /* Green array brackets */
+  .colonColor {fill: #f8f8f2;}      /* Light white colon */
+  .commentColor {fill: #6272a4;}    /* Purple-ish comment */
+  text, tspan {white-space: pre;}
+</style>
+
+<rect width="985px" height="640px" fill="#161b22" rx="15"/>
+
+<text x="15" y="30" fill="#c9d1d9" class="ascii">
+  <tspan x="15" y="30">     ░░  ▒▒▒▒         </tspan>
+  <tspan x="15" y="50">   ▓▓██████▓▓▓▓       </tspan>
+  <tspan x="15" y="70">   ▓▓████▓▓████▓▓     </tspan>
+  <tspan x="15" y="90">     ██▓▓░░░░██▓▓     </tspan>
+  <tspan x="15" y="110">     ░░▒▒▓▓░░██▒▒     </tspan>
+  <tspan x="15" y="130">     ░░░░░░░░▓▓       </tspan>
+  <tspan x="15" y="150">     ░░░░▒▒░░         </tspan>
+  <tspan x="15" y="170">       ▒▒░░░░         </tspan>
+  <tspan x="15" y="190">       ▒▒▒▒░░         </tspan>
+  <tspan x="15" y="210">   ░░▒▒▓▓▒▒▓▓▒▒     </tspan>
+  <tspan x="15" y="230"> ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   </tspan>
+  <tspan x="15" y="250"> ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   </tspan>
+  <tspan x="15" y="270"> ▒▒▒▒▓▓▓▓▓▓▓▓▒▒▒▒   </tspan>
+  <tspan x="15" y="290"> ▒▒░░▓▓▓▓▓▓▒▒░░░░   </tspan>
+  <tspan x="15" y="310"> ░░  ▓▓▓▓▓▓▒▒  ░░   </tspan>
+  <tspan x="15" y="330"> ░░  ▓▓▓▓▒▒▒▒  ░░   </tspan>
+  <tspan x="15" y="350"> ░░  ▓▓▓▓▓▓▒▒  ░░   </tspan>
+  <tspan x="15" y="370"> ░░  ░░░░░░░░  ░░   </tspan>
+  <tspan x="15" y="390"> ░░  ░░░░░░░░  ░░ </tspan>
+  <tspan x="15" y="410"> ░░  ░░░░░░░░  ░░    </tspan>
+  <tspan x="15" y="430">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="450">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="470">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="490">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="510">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="530">    ░░░░  ░░░░       </tspan>
+  <tspan x="15" y="550">    ░░▒▒  ▒▒░░       </tspan>
+  <tspan x="15" y="570">    ▒▒▒▒  ▒▒▒▒       </tspan>
+  <tspan x="15" y="590">  ▒▒▒▒▒▒  ▒▒▒▒▒▒     </tspan>
+</text>
+
+<text x="300" y="30" font-family="Consolas" font-size="16" fill="#f8f8f2">
+  <tspan x="300" y="30"><tspan class="keyColor">const</tspan> mridul <tspan class="colonColor">=</tspan> <tspan class="bracketColor">{</tspan></tspan>
+
+  <tspan x="300" y="50">  system: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="70">    <tspan class="keyColor">OS</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"Atlas OS 10"</tspan>,</tspan>
+  <tspan x="300" y="90">    <tspan class="keyColor">uptime</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"17 years"</tspan>,</tspan>
+  <tspan x="300" y="110">    <tspan class="keyColor">host</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"http://natore:2008"</tspan>,</tspan>
+  <tspan x="300" y="130">    <tspan class="keyColor">IDEs</tspan><tspan class="colonColor">:</tspan> <tspan class="arrayBracketColor">[</tspan><tspan class="valueColor">"VSCode", "Compass", "Postman"</tspan><tspan class="arrayBracketColor">]</tspan></tspan>
+  <tspan x="300" y="150">  <tspan class="bracketColor">}</tspan>,</tspan>
+
+  <tspan x="300" y="170">  languages: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="190">    <tspan class="keyColor">programming</tspan><tspan class="colonColor">:</tspan> <tspan class="arrayBracketColor">[</tspan><tspan class="valueColor">"JavaScript", "TypeScript", "Node.js", "React", "Next.js"</tspan><tspan class="arrayBracketColor">]</tspan>,</tspan>
+  <tspan x="300" y="210">    <tspan class="keyColor">computer</tspan><tspan class="colonColor">:</tspan> <tspan class="arrayBracketColor">[</tspan><tspan class="valueColor">"HTML", "CSS", "JSON", "Markdown", "Bash"</tspan><tspan class="arrayBracketColor">]</tspan>,</tspan>
+  <tspan x="300" y="230">    <tspan class="keyColor">real</tspan><tspan class="colonColor">:</tspan> <tspan class="arrayBracketColor">[</tspan><tspan class="valueColor">"Bangla", "English"</tspan><tspan class="arrayBracketColor">]</tspan></tspan>
+  <tspan x="300" y="250">  <tspan class="bracketColor">}</tspan>,</tspan>
+
+  <tspan x="300" y="270">  hobbies: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="290">    <tspan class="keyColor">tech</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"Building Bugs with Code"</tspan>,</tspan>
+  <tspan x="300" y="310">    <tspan class="keyColor">life</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"Gaming, Study, Overthink, Panic"</tspan></tspan>
+  <tspan x="300" y="330">  <tspan class="bracketColor">}</tspan>,</tspan>
+
+  <tspan x="300" y="350">  contact: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="370">    <tspan class="keyColor">email</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"rim89987@gmail.com"</tspan>,</tspan>
+  <tspan x="300" y="390">    <tspan class="keyColor">github</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"abdullah-al-mridul"</tspan>,</tspan>
+   <tspan x="300" y="410">    <tspan class="keyColor">facebook</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"abdullah.al.mridul.dev"</tspan></tspan>
+  <tspan x="300" y="430">  <tspan class="bracketColor">}</tspan>,</tspan>
+
+  <tspan x="300" y="450">  stats: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="470">    <tspan class="keyColor">linesOfCode</tspan><tspan class="colonColor">:</tspan> <tspan class="valueColor">"135,000"</tspan>,</tspan>
+  <tspan x="300" y="490">    <tspan class="keyColor">changes</tspan>: <tspan class="bracketColor">{</tspan></tspan>
+  <tspan x="300" y="510">      <tspan class="keyColor">added</tspan><tspan class="colonColor">:</tspan> <tspan class="addColor">"300,000++"</tspan>,</tspan>
+  <tspan x="300" y="530">      <tspan class="keyColor">deleted</tspan><tspan class="colonColor">:</tspan> <tspan class="delColor">"165,000--"</tspan></tspan>
+  <tspan x="300" y="550">    <tspan class="bracketColor">}</tspan></tspan>
+  <tspan x="300" y="570">  <tspan class="bracketColor">}</tspan>,</tspan>
+
+  <tspan x="300" y="590"><tspan class="commentColor">  // dreaming big</tspan></tspan>
+  <tspan x="300" y="610"><tspan class="bracketColor">}</tspan>;</tspan>
+</text>
+
+</svg>
